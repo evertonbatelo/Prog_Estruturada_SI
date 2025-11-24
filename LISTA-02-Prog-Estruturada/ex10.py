@@ -1,0 +1,10 @@
+#Exercício 10: Leia dois números e imprima o maior deles. Se forem iguais, imprima
+#"Números iguais".
+num1 = float(input('Digeite o primeiro número: '))
+num2 = float(input('Digeite o segundo número: '))
+if num1 > num2:
+    print("O maior número é:", num1)
+elif num2 > num1:
+    print("O maior número é:", num2)
+else:
+    print("Números iguais")
